@@ -40,16 +40,9 @@ body {
     font-weight: 700;
     opacity: 0.8;
 }
-.day  {
-    width: 50px;
-}
-.year  {
-    width: 50px;
-}
 .green {
     box-sizing: border-box;
     color:#649D09;
-    margin: -15 auto;
     padding: 2%;
     font-family: 'Bree Serif',serif;
     background: rgb(37, 29, 29);
@@ -59,14 +52,13 @@ body {
     opacity: 0.8;
     font-size: 30px;
     width: 50%;
-    margin: 0 auto;
     padding-top: 80px;
+    text-align: center;
 }
 
 .red {
     color:red;
     box-sizing: border-box;
-    margin: 0 auto;
     padding: 2%;
     font-family: 'Bree Serif',serif;;
     background: rgb(37, 29, 29);
@@ -78,6 +70,7 @@ body {
     justify-content: center;
     width: 50%;
     padding-top: 80px;
+    text-align: center;
 }
  .main_container .white {
     font-family: 'Bree Serif',serif;
