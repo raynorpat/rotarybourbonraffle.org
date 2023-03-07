@@ -9,7 +9,7 @@ $(document).ready (function(){
     });
 
     $('.no').click(function (){
-        $('.errors').text('You must be at least 21 years of age to enter the raffle.');
+        $('.errors').text('You must be at least 21 years of age to enter.');
         $('.errors').addClass("red");
         $('.main_container').hide();
     });
