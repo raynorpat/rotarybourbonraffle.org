@@ -1,0 +1,227 @@
+body {  
+    margin: 0;
+    display: block;
+}
+.section_background {    
+    background-image:url("background.png");
+    background-size: cover;
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+    height: 97vh;
+    cursor: wait;
+    box-sizing: border-box;
+    width: 100%;
+    background-position: left;
+}
+
+.container {
+    margin-top: 90px;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 98vw;
+    height: 55vh;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    
+}
+.main_container {
+    margin: 0 auto;
+    padding: 2%;
+    font-family: 'Bree Serif',serif;;
+    background: rgb(37, 29, 29);
+    border-radius: 4px;
+    box-shadow: 0 0 5px #000;
+    font-weight: 700;
+    opacity: 0.8;
+}
+.day  {
+    width: 50px;
+}
+.year  {
+    width: 50px;
+}
+.green {
+    box-sizing: border-box;
+    color:#649D09;
+    margin: -15 auto;
+    padding: 2%;
+    font-family: 'Bree Serif',serif;
+    background: rgb(37, 29, 29);
+    border-radius: 4px;
+    box-shadow: 0 0 5px #000;
+    font-weight: 700;
+    opacity: 0.8;
+    font-size: 30px;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+.red {
+    color:red;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 2%;
+    font-family: 'Bree Serif',serif;;
+    background: rgb(37, 29, 29);
+    border-radius: 4px;
+    box-shadow: 0 0 5px #000;
+    font-weight: 700;
+    opacity: 0.8;
+    font-size: 40px;
+    justify-content: center;
+    width: 50%;
+    padding-top: 80px;
+}
+ .main_container .white {
+    font-family: 'Bree Serif',serif;
+    color:rgb(250, 7, 7);
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.container h2 {
+    box-sizing: border-box;
+    margin:0 0 14px 0;
+    font-size:28px;
+    /*border-bottom:1px dashed rgb(161, 45, 45);
+    padding-bottom:9px;*/
+    color: antiquewhite;
+    text-align: center;
+}
+.container h3 {
+    box-sizing: border-box;
+    color:#649D09;
+    margin-bottom:5px;
+    margin-top:15px;
+    font-size:26px;
+}
+.container p {
+    box-sizing: border-box;
+    margin:0 0 20px 0;
+    font-size: 20px;
+    color:#b3adad;
+    line-height: 20px;
+    text-align: center;
+}
+.container p strong {
+    color:#FF1F1F;
+}
+.container select, 
+.container input {
+    box-sizing: border-box;
+    color:#555;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+    margin-right:5px;
+    border:1px solid #ccc;
+}
+.container input.day{
+    box-sizing: border-box;
+    width:45px;
+    height:28px;
+}
+.container input.year{
+    box-sizing: border-box;
+    width:70px;
+    height: 28px;
+}
+.container select {
+    box-sizing: border-box;
+    height:28px;
+    padding-left:4px;
+}
+.container button {
+    box-sizing: border-box;
+    display: inline-block;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 4px 10px 4px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    width: 84px;
+    background:rgb(8, 144, 185);
+    color:#fff; 
+    text-shadow:1px 1px 0 #84A51D;
+ 
+}
+.container button:hover{
+    box-sizing: border-box;
+    background:#82A711;
+}
+.acontainer .errors  {
+    box-sizing: border-box;
+    margin:0 0 20px 0;
+    font-size: 12px;
+    line-height: 18px;
+    color:#FF1F1F;
+}
+.container .errors ul,
+.container .errors li{
+    box-sizing: border-box;
+    padding:0 0 3px 0;
+    margin:0 0 0 0;
+    list-style:none;
+}
+.container .errors li span {
+    box-sizing: border-box;
+    font-size:9px;
+    background:#ebebeb; 
+    border:1px solid #ccc;
+    width: 14px;
+    height:14px;
+    border-radius:7px;
+    display:inline-block;
+    color:#FF1F1F;
+    font-weight: bold;
+    text-align: center;
+    margin-right:5px;
+    line-height: 13px;
+    position:relative;
+    top:-2px;
+    text-shadow: 1px 1px 0 #fff;
+    font-family:arial;
+}
+.container .fields {
+    box-sizing: border-box;
+    clear:both;
+    margin:10px 0 10px 0;
+}             
+    .container select, 
+    .container input.day, 
+    .container input.year{
+        box-sizing: border-box;
+        display:block;
+        margin-bottom:10px;
+        margin-right:0;
+        width:100%;
+    }
+    .container button {
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+    }
+}
