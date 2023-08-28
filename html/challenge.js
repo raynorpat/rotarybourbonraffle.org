@@ -1,7 +1,7 @@
 $(document).ready (function(){
     $('.yes').click(function (){
         setTimeout(function () {
-            window.location = 'https://go.rallyup.com/dwrotarybourbon';
+            window.location = 'https://go.rallyup.com/dwrotarybourbonfall2023';
         }, 2000);
         $('.errors').text('You are now being redirected to the raffle.');
         $('.errors').addClass("green");
